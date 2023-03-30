@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #header{
+        margin: 5px 10px;
+    }
+    #center{
+        margin: 5px 100px;
+    }
+    .flex_space_between{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .flex_center{
+        display: flex;
+        justify-content: center;
+    }
+    .flex_column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .margintop30{
+        margin-top: 30px;
+    }
+    .light_green_button{
+        width: 100px;
+        height: 45px;
+        padding: 15px 30px;
+        background-color: mediumseagreen;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    .white_button{
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        padding: 15px 30px;
+        background-color: white;
+        color: mediumseagreen;
+        border-radius: 5px;
+        border: none;
+    }
+    .flex_column_40{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+        width: 100%;
+    }
+    .flex_left{
+        background-color: mediumseagreen;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        width: 45%;
+    }
+    .white_font{
+            color: white;
+            font-weight: bold;
+            font-size: 30px;        
+    }
+    .white_button_blacktext{
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        padding: 15px 30px;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        border: none;
+    }
+    .grid4{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-auto-flow: column;
+        gap: 40px;
+        
+
+
+    }
+    .text{
+        color:mediumaquamarine;
+        
+
+    }
+    .light_green_button{
+        width: 100px;
+        height: 45px;
+        padding: 15px 30px;
+        background-color: mediumseagreen;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        }
+</style>
+<body>
+    <div class="flex_column">
+        <div class="flex_space_between" id="header">
+            <img src="images/Image 1548.png" alt="">
+            <div class="flex_space_between" style="width: 400px;">
+                <select name="" id="" style="border: none;">
+                    <option value="Features">Features</option>
+                    <option value="Usages">Usages</option>
+                </select>
+                <div>Pricing</div>
+                <div>About us</div>
+                <div>Contact</div>
+                <div>Blog</div>
+            </div>
+            <div>
+                <input type="button" class="white_button" value="Sign in">
+                <input type="button" class="light_green_button" value="Sign up">
+            </div>
+        </div>
+        </div>
+        <div id="center" class="flex_column">
+        <h1 class="flex_center">Feature name</h1>
+        <div class="flex_center" style="width: 800px;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi modi sit rem molestias fugit enim exercitationem eos neque, commodi accusantium?</div>
+        <img src="images/Image 1540.png" alt="" style="margin-top: 20px;width: 100%;">
+        <div class="flex_space_between flex_img">
+            <div class="flex_column_40">
+                <h2>Feature benifit</h2>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quo adipisci, pariatur consectetur omnis delectus at cupiditate id ea dolorem vero eius blanditiis ut non autem illo, enim asperiores! Architecto..Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum architecto ut! Nostrum, error tenetur. Neque, distinctio nisi. Delectus esse corporis optio provident odit quisquam accusantium beatae perspiciatis aliquam dicta?</div>
+                <input type="button" style="margin-top: 20px;" class="light_green_button" value="Try now">
+            </div>
+            <img src="images/Image 1544.png" alt="">
+        </div>
+        <div class="flex_space_between flex_img">
+            <img src="images/Image 1545.png" alt="">
+            <div class="flex_column_40">
+                <h2>Feature benifit</h2>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quo adipisci, pariatur consectetur omnis delectus at cupiditate id ea dolorem vero eius blanditiis ut non autem illo, enim asperiores! Architecto..Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum architecto ut! Nostrum, error tenetur. Neque, distinctio nisi. Delectus esse corporis optio provident odit quisquam accusantium beatae perspiciatis aliquam dicta?</div>
+                <input type="button" style="margin-top: 20px;" class="light_green_button" value="Try now">
+            </div>
+        </div>
+        <div class="flex_space_between flex_img">
+            <img src="images/Image 1546.png" alt="">
+            <div class="flex_column_40">
+                <h2>Feature benifit</h2>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quo adipisci, pariatur consectetur omnis delectus at cupiditate id ea dolorem vero eius blanditiis ut non autem illo, enim asperiores! Architecto..Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum architecto ut! Nostrum, error tenetur. Neque, distinctio nisi. Delectus esse corporis optio provident odit quisquam accusantium beatae perspiciatis aliquam dicta?</div>
+                <input type="button" style="margin-top: 20px;" class="light_green_button" value="Try now">
+            </div>
+        </div>
+        <div class="flex flex_img">
+            <div class="flex_left">
+                <div class="white_font ">Get Started
+                </div>
+                <div class="flex_img"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente debitis saepe beatae laudantium dolorum magnam quod expedita veritatis ut consequuntur, adipisci soluta quaerat distinctio aliquam perspiciatis eaque possimus. Natus.
+                Animi consectetur neque suscipit quid eius labore minima expedita tempora animi dicta atque odio quod? Itaque, dolorem officia. Quia eum repellendus recusandae. Accusantium, sint autem?
+                </div>
+                <input type="button" value="Sign up" class="white_button_blacktext flex_img" >
+            </div>
+            <img src="images/Image 1547.png" alt="" >
+        </div>
+        <div class="flex_space_between margintop30"  style="align-items: start;">
+            <img src="images/Image 1539.png" alt="">
+            <div class="grid4">
+                <h2>Product</h2>
+                <div>features</div>
+                <div>Pricing</div> 
+                <div></div>
+    
+                <h2>Resource</h2>
+                <div>Blog</div>
+                <div>User</div>
+                <div>Web</div>
+    
+                <h2>Company</h2>
+                <div>About</div>
+                <div>Join</div> 
+                <div></div>
+            </div>
+            <div class="flex_column" style="width: 400px;align-items: start;">
+                <h2 class="text"> Subcribe to our newsletter</h2>
+                <div>for product annoucsdadasdasdasdasda</div>
+                <div class="flex"><input type="email" name="" placeholder="Input your email" style="width: 100%
+                ;" >
+                <input type="button" value="Subcribe
+                " class="light_green_button"></div>
+                
+            </div>
+        </div>
+        
+            
+        
+    </div>
+    </div>
+</body>
+</html>
